@@ -16,12 +16,18 @@ html{
     scroll-behavior: smooth;
 }
 
+.noscroll {
+    overflow: hidden;
+    height: 100vh;
+}
+  
+
 .roboto-slab-bold {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 #page1{
     width: 100%;

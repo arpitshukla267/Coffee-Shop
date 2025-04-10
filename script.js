@@ -6,8 +6,16 @@ function toggleSearchBar() {
 function toggleMenu() {
     const menuIcon = document.getElementById("menu-icon");
     const menuButton = document.getElementById("menu-button");
+    const body = document.body;
+
     menuIcon.classList.toggle("active"); 
     menuButton.classList.toggle("active");
+    
+    if (menuButton.classList.contains("active")) {
+        body.classList.add("noscroll");
+    } else {
+        body.classList.remove("noscroll");
+    }
 }
 
 const learnMoreP = document.getElementById("learn-more-p");
@@ -30,11 +38,13 @@ learnMoreP.addEventListener("click", () => {
 function closeMenuOnClick() {
     const menuIcon = document.getElementById("menu-icon");
     const menuButton = document.getElementById("menu-button");
+    const body = document.body;
 
     menuIcon.addEventListener("click", function () {
         if (menuIcon.classList.contains("active")) {
             menuIcon.classList.remove("active"); 
             menuButton.classList.remove("active");
+            body.classList.remove("noscroll");
         }
     });
 }
