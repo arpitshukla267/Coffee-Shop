@@ -1,0 +1,185 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="coffeeshop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+            <div id="nav">
+                <div id="logo">
+                    <img src="https://img.freepik.com/premium-vector/coffee-coffee-shop-logo-template_59362-95.jpg?w=826" alt="Small Logo" id="small-logo">
+                    COFFEE SHOP
+                </div>
+                <div id = "menu-icon">
+                    <a href="#loadingpage" class="head">HOME</a>
+                    <a href="#our-history" class="head">ABOUT US</a>
+                    <a href="#page3" class="head">PRODUCTS</a>
+                    <a href="#our-customers" class="head">CUSTOMERS</a>
+                </div>
+                <div id="search-container">
+                    <i class="fa-solid fa-shop" id="shop-icon"></i> 
+                    <input type="text" id="search-bar" placeholder="Search...">
+                    <button id="search-button" onclick = "toggleSearchBar()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button id="menu-button" onclick="toggleMenu()">☰</button>
+                </div>
+            </div>
+            <div id = "loadingpage">
+                <div id = "heading">
+                    <h1>start your day<br> with coffee</h1>
+                    <p id = "para">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Rem, natus?</p>
+                    <button id = "shop">shop now</button>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div id = "our-history">
+                <div style="width: 30%;">
+                    <img src="https://img.freepik.com/premium-photo/coffee-bean-with-leaves-plate-white-backgrounds_183352-3183.jpg?w=740" alt="" class="src">
+                </div>
+                <div id = "history" style="width: 70%;">
+                    <h1>our history</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, delectus! Suscipit maxime perferendis sunt, itaque provident molestias, magni assumenda officiis ipsa, rerum fugiat dicta soluta odit dolores libero eum. Dolores doloremque non laboriosam, et alias eos libero voluptas corrupti perspiciatis nemo obcaecati voluptatibus nulla, harum explicabo eveniet pariatur? Quia, nulla.</p>   
+                    <p id = "learn-more-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, impedit eum eveniet, aperiam molestiae iure dolor quos perferendis porro aut iusto modi odit quam, delectus magnam tempora! Quod, natus architecto.</p>
+
+                    <button id = "learn-more" onclick="toggleLearnMore()">learn more</button> 
+                </div>
+            </div>
+        </div>
+        <div id = "page3">
+            <div id="ourproducts">
+                <h1>our popular products</h1>
+            </div>
+            <div id="boxes">
+                <div class="box">
+                    <div id = "box1">
+                        <img src="coffeeshop-img-1-removebg-preview.png" alt="" class="src"> 
+                    </div>
+                    <div class = "brand">
+                        <h1>starbucks coffee</h1>
+                    </div>
+                    <div class = "details">
+                        <div class = "price"> $25 </div>
+                        <button class = "add-to-cart">add to cart</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id = "box2">
+                        <img src = "coffeeshop-img-2-removebg-preview.png" alt="" class="src">
+                    </div>
+                    <div class = "brand">
+                        <h1>borbone coffee</h1>
+                    </div>
+                    <div class = "details">
+                        <div class = "price"> $25 </div>
+                        <button class = "add-to-cart">add to cart</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id = "box3">
+                        <img src="coffeeshop-img-3-removebg-preview.png" alt="" class="src">
+                    </div>
+                    <div class = "brand">
+                        <h1>tim hortons coffee</h1>
+                    </div>
+                    <div class = "details">
+                        <div class = "price"> $25 </div>
+                        <button class = "add-to-cart">add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="our-customers">
+                <h1>our customer's</h1>
+            </div>
+            <div id="customer-boxes">
+                <div class="customers">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tenetur nemo excepturi autem fugit et.</p>
+                    <h2>rahul sharma</h2>
+                    <img src="https://imgs.search.brave.com/cFUd76J4xlRQ3xCGxlPXKnMnj-bhxkFRd9isF4UHBxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzgzLzYxLzY4/LzM2MF9GXzI4MzYx/Njg3OF9aSzBCRlhV/RHlqMjdlcGpQYVo2/Mmc4RWpBbGc5MThz/US5qcGc" alt="customer">
+                </div>
+                <div class="customers">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tenetur nemo excepturi autem fugit et.</p>
+                    <h2>akash chopra</h2>
+                    <img src="https://imgs.search.brave.com/9g2EE_7eLUai8cWEykP9uNpZd87YhQNjCjg3E_XV6k0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZ2VuZXJhdGVk/LnBob3Rvcy9ZaWY5/SVZ5Nm03cFYxZEtJ/WG0xZEtRN2xac29n/YkhWQ04tN1NrUTN5/ejhNL3JzOmZpdDoy/NTY6MjU2L2N6TTZM/eTlwWTI5dWN6Z3Uv/WjNCb2IzUnZjeTF3/Y205ay9MbkJvYjNS/dmN5OTJNMTh3L01E/TTNOalU0TG1wd1p3/LmpwZw" alt="customer">
+                </div>
+                <div class="customers">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tenetur nemo excepturi autem fugit et.</p>
+                    <h2>hitesh sharma</h2>
+                    <img src="https://imgs.search.brave.com/0TExekSiLUANXndaoSgIxSjQ8NZQ9VAVTp4llZyGKnk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzEwLzc5LzAy/LzM2MF9GXzExMDc5/MDI3M19tcjhqZk85/eUVpalJwWWZFT045/SEpKMjcydUFPWEZo/OS5qcGc" alt="customer">
+                </div>
+            </div>
+            <div id="conclusion">
+                <div class="conc-heading">
+                    <h1>coffee shop</h1>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusamus eos excepturi neque, nam dolor.</p>
+                </div>
+                <div class="conc-heading">
+                    <h1>support</h1>
+                    <div class = "conc1">
+                        <p class = "c1">products</p>
+                        <p class = "c1">health & support</p>
+                        <p class = "c1">return policy</p>
+                        <p class = "c1">terms of use product</p>
+                    </div>
+                </div>
+                <div class="conc-heading">
+                    <h1>view guides</h1>
+                    <div class = "conc1">
+                        <p class = "c1">features</p>
+                        <p class = "c1">careers</p>
+                        <p class = "c1">blog posts</p>
+                        <p class = "c1">our branches</p>
+                    </div>
+                </div>
+                <div class="conc-heading">
+                    <h1>contact us</h1>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>123 Coffee Street, New York, USA</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+1 234 567 890</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>info@coffeeshop.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="coffeeshop.js"></script>
+</body>
