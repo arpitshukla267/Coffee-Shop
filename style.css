@@ -945,6 +945,7 @@ html.noscroll,
     }
 
     #menu-icon.active {
+        position: absolute;
         display: flex;
         line-height: 2;
         font-size: 35px;
@@ -967,7 +968,8 @@ html.noscroll,
     }
 
     #logo{
-        margin: 0 3px;
+        margin: 0 ;
+        gap: 0;
     }
 
     #small-logo{
@@ -992,8 +994,12 @@ html.noscroll,
         margin: 0 auto;
     }
 
-    #search-bar.active {
+    #search-bar{
+        transition: all 0.3s ease-in-out;
         position: absolute;
+    }
+
+    #search-bar.active {
         width: 125px; 
         font-size: 14px; 
         opacity: 1; 
