@@ -555,9 +555,8 @@ html.noscroll,
 }
 
 .contact-item p {
-    margin: 0; 
     padding: 0;
-    margin: 10px auto;
+    margin: 0px 0px;
 }
 
 #conclusion{
@@ -603,6 +602,12 @@ html.noscroll,
         display: flex;
         flex-direction: column;
     }
+    .contact-info {
+        display: flex;
+        flex-direction: column; 
+        gap: 0px; 
+        margin-top: 0px;
+    }
     .contact-item {
         display: flex;
         align-items: center; 
@@ -613,6 +618,7 @@ html.noscroll,
     }
     .contact-item p {
         font-size: 5px;
+        margin: 10px 0;;
     }
     .contact-info i{
         padding: 0;
