@@ -65,4 +65,3 @@ window.addEventListener("scroll", function () {
         logo.style.height = "10vh";
     }
 });
-
